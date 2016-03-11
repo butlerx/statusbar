@@ -1,4 +1,4 @@
-command: "sar -n DEV 1 1 | grep en0 | tail -n1 | awk '{print $4,$6}'"
+command: "sar -n DEV 1 1 2>/dev/null | grep en0 | tail -n1 | awk '{print $4,$6}'"
 
 refreshFrequency: 3000 # ms
 
