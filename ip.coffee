@@ -13,5 +13,6 @@ style: """
   right: 306px
   top: 6px
   span
+    text-align: center;
     color: #FFFFFF
 """
